@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Sederhana</title>
+
+  <!-- Memanggil file CSS -->
+  <link rel="stylesheet" href="gaya.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Kalkulator Sederhana</h2>
+    
+    <!-- Input angka -->
+    <input id="angka1" type="number" placeholder="Angka 1">
+    <input id="angka2" type="number" placeholder="Angka 2"><br>
+    
+
+    <!-- Tombol operasi -->
+    <button onclick="hitung('+')">+</button>
+    <button onclick="hitung('-')">−</button>
+    <button onclick="hitung('*')">×</button>
+    <button onclick="hitung('/')">÷</button>
+
+    <!-- Hasil -->
+    <h3 id="hasil">Hasil: -</h3>
+  </div>
+
+  <!-- Memanggil file JavaScript -->
+  <script src="js.calc.js"></script>
+</body>
+</html>
